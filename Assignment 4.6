@@ -1,0 +1,11 @@
+def computepay(h,r):
+    if h>40:
+        g=h*r
+        t=(h-40)*(r*0.5)
+        x=g+t      
+    else:
+        x=h*r
+    return(x) 
+h=float(input("enter the hours"))
+r=float(input("enter the rph"))
+print(computepay(h,r))  
